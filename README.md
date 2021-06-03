@@ -69,3 +69,10 @@ DownloadedResults/
 * [requests](https://docs.python-requests.org/en/master/)
 * [Beautiful Soup 4](https://www.crummy.com/software/BeautifulSoup/)
 
+## Motivation
+
+Approximately in mid-2018, when I was in the second semester of my undergraduate studies, our semester results were out and I was trying to access the marksheet portal, which was succumbing to the load of many students concurrently trying to fetch their marksheets. It was quite a tiring process. One of my friends said, "It would be convenient if we could somehow automate this". From this thought, the idea for this application was born. At that time, I didn't know much about how the internet works, and I had no idea how I would even start to automate a process like this. I only knew how to write simple programs. Nevertheless, I tried to piece together things I found on the internet, and somehow, I managed to make a [working application](https://github.com/genericSpecimen/scrapy-scripts/tree/master/results) but I didn't properly understand how it worked.
+
+Fast forward to today, I now understand the basics of "how the internet works". Therefore, I thought of rewriting this application. The rewritten application was definitely an improvement, which includes the better management of directory structure, general code quality improvements, and, better maintainability. But possibly the biggest improvement is that now I understand how it works. The HTTP Request / Response cycle, GET and POST methods, and things like that, are now clearer.
+
+`
