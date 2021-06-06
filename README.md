@@ -19,7 +19,7 @@ git clone https://github.com/genericSpecimen/marksheets-fetcher.git
 
 cd marksheets-fetcher/
 
-# create a vitual environment and install dependencies
+# create a virtual environment and install dependencies
 make start
 
 source env/bin/activate
